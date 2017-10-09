@@ -1,0 +1,15 @@
+# Basic R commands
+
+data <- matrix(rnorm(150*300),150,300)
+
+
+# data sourcing
+data <- data[,-c(2,3)]    # delete the 2nd-3rd columns
+data <- data[-c(2,3),]    # delete the 2nd-3rd rows
+
+# plot
+# https://wklchris.github.io/R-plotting-basic.html
+
+# regression
+# http://blog.csdn.net/lilanfeng1991/article/details/29627405http://blog.csdn.net/lilanfeng1991/article/details/29627405
+
